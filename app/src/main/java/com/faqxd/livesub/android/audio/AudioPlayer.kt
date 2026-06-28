@@ -1,4 +1,4 @@
-package com.livebuddy.android.audio
+package com.faqxd.livesub.android.audio
 
 import android.media.AudioAttributes
 import android.media.AudioFormat
@@ -52,7 +52,7 @@ class AudioPlayer(
             .setBufferSizeInBytes(minBuf * 4)
             .setTransferMode(AudioTrack.MODE_STREAM)
             .build()
-        t.volume = volume.coerceIn(0f, 1f)
+        t.setVolume(volume.coerceIn(0f, 1f))
         t.play()
         track = t
         running = true
@@ -85,7 +85,7 @@ class AudioPlayer(
 
     fun setVolume(v: Float) {
         volume = v.coerceIn(0f, 1f)
-        track?.volume = volume
+        track?.setVolume(volume)
     }
 
     fun stop() {

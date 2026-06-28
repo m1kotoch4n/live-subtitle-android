@@ -1,4 +1,4 @@
-package com.livebuddy.android
+package com.faqxd.livesub.android
 
 import android.os.Bundle
 import android.text.InputType
@@ -9,8 +9,8 @@ import android.widget.EditText
 import android.widget.SeekBar
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
-import com.livebuddy.android.data.AppSettings
-import com.livebuddy.android.data.Languages
+import com.faqxd.livesub.android.data.AppSettings
+import com.faqxd.livesub.android.data.Languages
 
 /**
  * Port of `settings_window.py:SettingsDialog`.

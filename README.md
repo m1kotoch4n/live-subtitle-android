@@ -101,7 +101,7 @@ gradle wrapper
 所有配置保存在：
 
 ```
-/data/data/com.livebuddy.android/shared_prefs/livebuddy_settings.xml
+/data/data/com.faqxd.livesub.android/shared_prefs/livebuddy_settings.xml
 ```
 
 **注意**：API key 以明文存储，root 设备上的其他进程理论上可读取。
@@ -128,7 +128,7 @@ livebuddy-android/
 │   ├── proguard-rules.pro
 │   └── src/main/
 │       ├── AndroidManifest.xml
-│       ├── java/com/livebuddy/android/
+│       ├── java/com/faqxd/livesub/android/
 │       │   ├── LiveBuddyApp.kt                # Application 入口
 │       │   ├── MainActivity.kt                # 启动 Activity + 权限流
 │       │   ├── SettingsActivity.kt            # 设置页

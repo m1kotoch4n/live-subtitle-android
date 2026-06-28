@@ -1,4 +1,4 @@
-package com.livebuddy.android
+package com.faqxd.livesub.android
 
 import android.Manifest
 import android.app.Activity
@@ -15,9 +15,9 @@ import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.livebuddy.android.data.AppSettings
-import com.livebuddy.android.data.Languages
-import com.livebuddy.android.service.LiveTranslateService
+import com.faqxd.livesub.android.data.AppSettings
+import com.faqxd.livesub.android.data.Languages
+import com.faqxd.livesub.android.service.LiveTranslateService
 
 /**
  * Entry Activity.

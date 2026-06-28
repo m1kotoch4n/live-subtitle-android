@@ -1,4 +1,4 @@
-package com.livebuddy.android.gemini
+package com.faqxd.livesub.android.gemini
 
 import android.util.Base64
 import android.util.Log

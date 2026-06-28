@@ -1,4 +1,4 @@
-package com.livebuddy.android.service
+package com.faqxd.livesub.android.service
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -18,12 +18,12 @@ import android.os.Build
 import android.os.IBinder
 import android.util.Log
 import androidx.core.app.NotificationCompat
-import com.livebuddy.android.MainActivity
-import com.livebuddy.android.R
-import com.livebuddy.android.audio.AudioCapture
-import com.livebuddy.android.audio.AudioPlayer
-import com.livebuddy.android.data.AppSettings
-import com.livebuddy.android.gemini.GeminiClient
+import com.faqxd.livesub.android.MainActivity
+import com.faqxd.livesub.android.R
+import com.faqxd.livesub.android.audio.AudioCapture
+import com.faqxd.livesub.android.audio.AudioPlayer
+import com.faqxd.livesub.android.data.AppSettings
+import com.faqxd.livesub.android.gemini.GeminiClient
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job
@@ -179,7 +179,7 @@ class LiveTranslateService : Service() {
                     }
                     override fun onSettingsClicked() {
                         startActivity(
-                            Intent(this@LiveTranslateService, com.livebuddy.android.SettingsActivity::class.java)
+                            Intent(this@LiveTranslateService, com.faqxd.livesub.android.SettingsActivity::class.java)
                                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                         )
                     }
@@ -345,9 +345,9 @@ class LiveTranslateService : Service() {
         private const val CHANNEL_ID = "live_translate"
         private const val NOTIF_ID = 1
 
-        const val ACTION_START = "com.livebuddy.android.START"
-        const val ACTION_STOP = "com.livebuddy.android.STOP"
-        const val ACTION_TOGGLE = "com.livebuddy.android.TOGGLE"
+        const val ACTION_START = "com.faqxd.livesub.android.START"
+        const val ACTION_STOP = "com.faqxd.livesub.android.STOP"
+        const val ACTION_TOGGLE = "com.faqxd.livesub.android.TOGGLE"
         const val EXTRA_RESULT_CODE = "result_code"
         const val EXTRA_RESULT_DATA = "result_data"
 

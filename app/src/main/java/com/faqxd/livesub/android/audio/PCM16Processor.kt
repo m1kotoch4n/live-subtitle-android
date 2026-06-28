@@ -1,4 +1,4 @@
-package com.livebuddy.android.audio
+package com.faqxd.livesub.android.audio
 
 import java.nio.ByteBuffer
 import java.nio.ByteOrder

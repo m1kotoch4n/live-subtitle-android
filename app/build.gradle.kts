@@ -13,11 +13,11 @@ val keyAlias: String? = System.getenv("ANDROID_KEY_ALIAS")
 val keyPassword: String? = System.getenv("ANDROID_KEY_PASSWORD")
 
 android {
-    namespace = "com.livebuddy.android"
+    namespace = "com.faqxd.livesub.android"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.livebuddy.android"
+        applicationId = "com.faqxd.livesub.android"
         minSdk = 26
         targetSdk = 34
         versionCode = versionCodeFromEnv?.toIntOrNull() ?: 1

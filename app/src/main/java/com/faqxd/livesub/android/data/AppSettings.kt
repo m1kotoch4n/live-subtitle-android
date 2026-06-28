@@ -1,4 +1,4 @@
-package com.livebuddy.android.data
+package com.faqxd.livesub.android.data
 
 import android.content.Context
 import android.content.SharedPreferences

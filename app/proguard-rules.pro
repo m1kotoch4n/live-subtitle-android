@@ -1,7 +1,7 @@
 # ProGuard rules for LiveBuddy Android release builds.
 # Keep Kotlin metadata for reflection used by Service / View binding.
 
--keep class com.livebuddy.android.** { *; }
+-keep class com.faqxd.livesub.android.** { *; }
 
 # OkHttp
 -dontwarn okhttp3.**

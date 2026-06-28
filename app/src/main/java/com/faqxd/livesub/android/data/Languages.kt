@@ -1,4 +1,4 @@
-package com.livebuddy.android.data
+package com.faqxd.livesub.android.data
 
 /**
  * Supported target languages (mirrors `settings.py:LANGUAGES`).

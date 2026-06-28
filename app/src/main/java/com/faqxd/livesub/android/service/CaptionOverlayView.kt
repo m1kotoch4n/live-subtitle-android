@@ -1,4 +1,4 @@
-package com.livebuddy.android.service
+package com.faqxd.livesub.android.service
 
 import android.content.Context
 import android.graphics.PixelFormat
@@ -11,9 +11,9 @@ import android.view.WindowManager
 import android.widget.Button
 import android.widget.ImageButton
 import android.widget.TextView
-import com.livebuddy.android.R
-import com.livebuddy.android.data.AppSettings
-import com.livebuddy.android.data.Languages
+import com.faqxd.livesub.android.R
+import com.faqxd.livesub.android.data.AppSettings
+import com.faqxd.livesub.android.data.Languages
 import kotlin.math.abs
 
 /**
