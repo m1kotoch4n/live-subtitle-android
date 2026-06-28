@@ -1,0 +1,17 @@
+# Build artifacts
+.gradle/
+build/
+/local.properties
+*.iml
+.idea/
+.DS_Store
+/captures
+.externalNativeBuild
+.cxx
+
+# Keystore
+*.jks
+*.keystore
+
+# Logs
+*.log

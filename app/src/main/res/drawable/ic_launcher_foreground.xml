@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Speech bubble + translation glyph -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,32 h48 a8,8 0 0 1 8,8 v22 a8,8 0 0 1 -8,8 h-22 l-12,10 v-10 h-14 a8,8 0 0 1 -8,-8 v-22 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:fillColor="#7C5CFF"
+        android:pathData="M44,46 h20 v3 h-20 z M44,53 h14 v3 h-14 z" />
+</vector>
