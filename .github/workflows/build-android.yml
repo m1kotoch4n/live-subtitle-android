@@ -12,9 +12,6 @@ on:
         required: true
         type: boolean
         default: true
-  push:
-    branches: [ main, master ]
-  pull_request:
 
 permissions:
   contents: write
