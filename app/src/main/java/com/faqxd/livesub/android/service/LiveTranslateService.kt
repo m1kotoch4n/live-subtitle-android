@@ -185,6 +185,7 @@ class LiveTranslateService : Service() {
                     }
                 },
             )
+            overlay?.init()
         }
         overlay?.applyStyle()
         try {
